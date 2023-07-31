@@ -1,20 +1,47 @@
-import React from 'react'
+import React from "react";
 const bgimage = {
-    backgroundImage: 'url("banners/start-Banner.jpg")'
-}
+    backgroundImage: 'url("banners/start-Banner.jpg")',
+};
 
 export default function NavBar() {
     return (
         <header
-            className="navbar bg-center h-[35rem] p-[0.5em] max-h-[35rem]"
-            style={bgimage}
+            className="navbar bg-center h-[35rem] p-[1.5rem] px-[3rem]"
+            style={{ backgroundImage: 'url("banners/start-Banner.jpg")' }}
         >
-            <div className="nav-items flex justify-center items-center">
+            {/*Hamburger and Logo for small views (<1095px)*/}
+            <div className="small-nav flex justify-between items-center">
                 <img
-                    src="/logo-crowncrunch.png"
+                    src="public/logo-crowncrunch.png"
                     alt=""
                     srcSet=""
-                    className="h-[6rem] -ml-[22rem] mr-[10rem]"
+                    className="h-[3.5rem] w-[3.5rem] -ml-[1rem]"
+                    id="ham-logo"
+                />
+                {/*Manual Hamburger Creation*/}
+                <div
+                    className="flex justify-end items-center -mr-[1rem] bg-green-800"
+                    id="hamberger"
+                >
+                    <div className="name-menu flex justify-between">
+                        <div className="hamburger inline-block p-1 cursor-pointer" id="ham">
+                            <div className="lines h-1 bg-black w-6 my-1" />
+                            <div className="lines h-1 bg-black w-6 my-1" />
+                            <div className="lines h-1 bg-black w-6 my-1" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* For large screens (Min width : 1095px to Max-width : 1280px) */}
+            <div
+                className="nav-items flex justify-center items-center pr-[1.5rem]"
+                id="large-nav"
+            >
+                <img
+                    src="public/logo-crowncrunch.png"
+                    alt=""
+                    srcSet=""
+                    className="h-[3.5rem] w-[3.5rem] -ml-[18rem] mr-[12rem]"
                 />
                 <div className="items flex space-x-[2.5rem] font-bold text-lg text-slate-300 ">
                     <p className="home hover:text-white cursor-pointer">Home</p>
@@ -32,5 +59,6 @@ export default function NavBar() {
                 </button>
             </div>
         </header>
-    )
+
+    );
 }
