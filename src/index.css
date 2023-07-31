@@ -1,12 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
   line-height: 1.5;
 
   color-scheme: light dark;
-  color: black;
   background-color: white;
 
   font-synthesis: none;
@@ -68,3 +63,6 @@ button:focus-visible {
   }
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
