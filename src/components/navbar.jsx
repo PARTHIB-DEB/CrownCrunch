@@ -6,7 +6,7 @@ const bgimage = {
 export default function NavBar() {
     return (
         <header
-            className="navbar bg-cover bg-center h-[35rem] p-[0.5em] max-h-[35rem]"
+            className="navbar bg-center h-[35rem] p-[0.5em] max-h-[35rem]"
             style={bgimage}
         >
             <div className="nav-items flex justify-center items-center">
@@ -14,7 +14,7 @@ export default function NavBar() {
                     src="/logo-crowncrunch.png"
                     alt=""
                     srcSet=""
-                    className="h-[6rem] -ml-[18rem] mr-[12rem]"
+                    className="h-[6rem] -ml-[22rem] mr-[10rem]"
                 />
                 <div className="items flex space-x-[2.5rem] font-bold text-lg text-slate-300 ">
                     <p className="home hover:text-white cursor-pointer">Home</p>
