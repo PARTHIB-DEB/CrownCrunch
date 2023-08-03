@@ -7,6 +7,9 @@
 .card {
   padding: 2em;
 }
+/* Custom CSS Logic */
+
+/*For Navbar*/
 
 @media screen and (max-width:1095px) {
   #large-nav{
@@ -19,7 +22,52 @@
   }
 }
 @media screen and (min-width:1095px) {
-  #hamberger,#ham-logo{
+  #hamberger,#ham-logo,#navItems{
       display: none;
+  }
+}
+@media screen and (max-width:950px) {
+  #para1,#para2{
+      font-size: xxx-large;
+  }
+  #para3,#para4{
+      font-size: x-large;
+  }
+  #para1{
+      margin-top: 2.0rem;
+  }
+}
+
+@media screen and (max-width:900px) {
+  #para1,#para2{
+      font-size: xx-large;
+  }
+  #para3,#para4{
+      font-size: larger;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #para1,#para2{
+      font-size: x-large;
+  }
+  #para3,#para4{
+      font-size: large;
+  }
+}
+
+@media screen and (max-width:400px) {
+  #para1,#para2{
+      font-size: large;
+  }
+  #para3,#para4{
+      font-size: medium;
+  }
+  #para4{
+      margin-top: -1rem;
+  }
+  #second-btn{
+      margin-right:1rem;
+      margin-top: 1rem;
   }
 }
