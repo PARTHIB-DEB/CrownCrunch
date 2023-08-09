@@ -71,3 +71,23 @@
       margin-top: 1rem;
   }
 }
+@media (max-width: 900px) {
+  #menu-bg{
+      background-size: cover;
+  }
+  #bold-head{
+      font-size: larger;
+  }
+  #bold-desc{
+      font-size: medium;
+      padding-top: 1rem;
+  }
+  #menu-items{
+      justify-content: center;
+  }
+  #menu-img{
+      height: 4rem;
+      width: 4rem;
+  }
+}
+
