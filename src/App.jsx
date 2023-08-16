@@ -5,6 +5,7 @@ import FoodQuality from './components/foodquality';
 import MenuItems from './components/menuitems';
 import TodayMenu from './components/todaymenu';
 import CustoMers from './components/customers';
+import PartyTime from './components/partytime';
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <NavBar/>
       <FoodQuality/>
       <MenuItems/>
+      <PartyTime/>
       <TodayMenu/>
       <CustoMers/>
     </div>

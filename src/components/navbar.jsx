@@ -1,10 +1,12 @@
 import React from "react";
+// import { HamRotate } from ".";
 
+const bg={ backgroundImage: 'url("banners/start-Banner.jpg")' }
 export default function NavBar() {
     return (
         <header
             className="navbar bg-center h-[35rem] p-[1.5rem] px-[3rem]"
-            style={{ backgroundImage: 'url("banners/start-Banner.jpg")' }}
+            style={bg}
         >
             {/*Hamburger and Logo for small views (<1095px)*/}
             <div className="small-nav flex justify-between items-center">

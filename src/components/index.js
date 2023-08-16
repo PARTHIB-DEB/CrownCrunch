@@ -1,9 +1,7 @@
-let elem = document.getElementById('ham')
-let b = document.getElementById('opham')
-let c = document.getElementById('main')
-
-
-export const hamrotate = () =>{
+export const HamRotate = () =>{
+    let elem = document.getElementById('ham')
+    let b = document.getElementById('opham')
+    let c = document.getElementById('main')
     if (elem.onclick){
         if (elem.style.transform === 'rotate(0deg)') {
             elem.style.transform = 'rotate(90deg)'
