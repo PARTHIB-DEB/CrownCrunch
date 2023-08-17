@@ -8,7 +8,7 @@
 
 ## Tech Stack
 
-**Frontend:** HTML5,CSS,JS,REACT
+**Frontend:** HTML5 , TAILWINDCSS , REACT
 
 ## Command
 
