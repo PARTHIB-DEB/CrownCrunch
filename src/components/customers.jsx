@@ -3,12 +3,12 @@ import { useState } from 'react'
 
 
 export default function CustoMers() {
-    const [statement,changeWords ] = useState("HONEY SINGH") //  DEMO USE OF USESTATE IN REACT (REACT HOOKS)
+    const [statement,changeWords ] = useState("HOOKS DEMO STRING") //  DEMO USE OF USESTATE IN REACT (REACT HOOKS)
     const WordisChanges=()=>{
         setTimeout(() => {
-            changeWords("YOYO");
+            changeWords("STRING IS HERE AFTER 3 SECONDS");
         }, 3000);
-        changeWords("HONEY SINGH");
+        changeWords("WAIT....");
     }
     return (
       <div class="menu font-sans font-bold text-4xl text-black mt-[9rem]">
