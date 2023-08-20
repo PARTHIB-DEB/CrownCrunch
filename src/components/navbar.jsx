@@ -28,7 +28,7 @@ export default function NavBar() {
                 {/*Hamburger and Logo for small views (<1095px)*/}
                 <div className="small-nav flex justify-between items-center">
                     <img
-                        src="public/logo-crowncrunch.png"
+                        src="/logo-crowncrunch.png"
                         alt=""
                         srcSet=""
                         className="h-[3.5rem] w-[3.5rem] -ml-[1rem]"
